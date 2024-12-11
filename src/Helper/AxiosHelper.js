@@ -9,6 +9,7 @@ const apiClient = axios.create({
         'Content-Type': 'application/json',
         Accept: 'application/json',
     },
+    withCredentials: true, // Include credentials in requests
 });
 
 // Response interceptor (Optional)
