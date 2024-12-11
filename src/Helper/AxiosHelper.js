@@ -2,7 +2,8 @@ import axios from 'axios';
 
 // Create an Axios instance
 const apiClient = axios.create({
-    baseURL: 'http://localhost:5000/api/yellow-taxi-data', // Set default API base URL
+    // baseURL: 'http://localhost:5000/api/yellow-taxi-data', // Set default API base URL
+    baseURL: 'https://ganahpati-be.vercel.app/api/yellow-taxi-data', // Set default API base URL
     timeout: 10000, // Set default timeout (10 seconds)
     headers: {
         'Content-Type': 'application/json',

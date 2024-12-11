@@ -75,7 +75,7 @@ const MapComponent = () => {
 
             console.log('Full API Request URL:', await AxiosHelper.get('', params));
 
-            const response = await AxiosHelper.get('http://localhost:5000/api/yellow-taxi-data', params);
+            const response = await AxiosHelper.get('', params);
 
             console.log('Filtered Data Response:', response);
 
